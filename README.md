@@ -1,16 +1,31 @@
 <div align="center">
-<table>
+<table border="0" cellspacing="0" cellpadding="0" style="border: none; border-collapse: collapse;">
   <tr>
-    <td>
+    <td style="border: none; padding-right: 20px;">
       <img src="assets/2pac-shakurliza.jpg" alt="2Pac" width="100"/>
     </td>
-    <td>
+    <td style="border: none;">
       <span style="font-size:2em;font-weight:bold;">🪓 Tupac Almighty 🔫</span><br>
       <span style="font-size:1.2em;font-weight:bold;">Docker & RPI Deployment Guide</span>
     </td>
   </tr>
 </table>
 </div>
+
+### About This Project
+
+**Tupac Almighty** is a personal Telegram bot that runs 24/7 on a **Raspberry Pi** and uses a local **Mac** for heavy-duty tasks.
+
+It uses a "mac-as-a-server" setup: the RPi handles simple commands, but for demanding tasks like AI chats or transcribing voice notes, it connects to the Mac to borrow its power. This makes the bot both efficient and powerful, without any cloud costs.
+
+**Key Features:**
+
+- 🤖 **Ask AI:** Chat with various local Large Language Models (LLMs).
+- 🎙️ **Voice-to-Text:** Transcribe audio messages using Whisper.
+- 🎯 **Appointment Sniper:** Automatically checks a website for open shooting range appointments.
+- 🗓️ **Activity Tracker:** Fetches events from Google Calendar to track personal goals.
+
+---
 
 This guide covers **local development**, **Docker usage**, and **Raspberry Pi deployment**—including systemd integration for robust service management.
 
