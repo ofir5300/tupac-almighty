@@ -1,15 +1,13 @@
 <div align="center">
-<table style="border-color: transparent;">
-  <tr>
-    <td style="border-color: transparent;">
+  <div style="display: flex; align-items: center; border: none;">
+    <div style="padding-right: 20px;">
       <img src="assets/2pac-shakurliza.jpg" alt="2Pac" width="100"/>
-    </td>
-    <td style="border-color: transparent;">
+    </div>
+    <div>
       <span style="font-size:2em;font-weight:bold;">🪓 Tupac Almighty 🔫</span><br>
       <span style="font-size:1.2em;font-weight:bold;">Docker & RPI Deployment Guide</span>
-    </td>
-  </tr>
-</table>
+    </div>
+  </div>
 </div>
 
 ### About This Project
