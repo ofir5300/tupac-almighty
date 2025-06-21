@@ -1,13 +1,15 @@
 <div align="center">
-  <div style="display: flex; align-items: center; border: none;">
-    <div style="padding-right: 20px;">
+<table border="0" cellspacing="0" cellpadding="0" style="border: none; border-collapse: collapse;">
+  <tr>
+    <td style="border: none; padding-right: 20px;">
       <img src="assets/2pac-shakurliza.jpg" alt="2Pac" width="100"/>
-    </div>
-    <div>
+    </td>
+    <td style="border: none;">
       <span style="font-size:2em;font-weight:bold;">🪓 Tupac Almighty 🔫</span><br>
       <span style="font-size:1.2em;font-weight:bold;">Docker & RPI Deployment Guide</span>
-    </div>
-  </div>
+    </td>
+  </tr>
+</table>
 </div>
 
 ### About This Project
@@ -18,10 +20,10 @@ It uses a "mac-as-a-server" setup: the RPi handles simple commands, but for dema
 
 **Key Features:**
 
-- **Ask AI:** Chat with various local Large Language Models (LLMs).
-- **Voice-to-Text:** Transcribe audio messages using Whisper.
-- **Appointment Sniper:** Automatically checks a website for open shooting range appointments.
-- **Activity Tracker:** Fetches events from Google Calendar to track personal goals.
+- 🤖 **Ask AI:** Chat with various local Large Language Models (LLMs).
+- 🎙️ **Voice-to-Text:** Transcribe audio messages using Whisper.
+- 🎯 **Appointment Sniper:** Automatically checks a website for open shooting range appointments.
+- 🗓️ **Activity Tracker:** Fetches events from Google Calendar to track personal goals.
 
 ---
 
