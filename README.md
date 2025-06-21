@@ -1,10 +1,10 @@
 <div align="center">
 <table style="border: none;">
   <tr>
-    <td>
+    <td style="border: none;">
       <img src="assets/2pac-shakurliza.jpg" alt="2Pac" width="100"/>
     </td>
-    <td>
+    <td style="border: none;">
       <span style="font-size:2em;font-weight:bold;">🪓 Tupac Almighty 🔫</span><br>
       <span style="font-size:1.2em;font-weight:bold;">Docker & RPI Deployment Guide</span>
     </td>
