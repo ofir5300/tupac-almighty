@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  tupac:
+    image: tupac:latest
+    container_name: tupac
+    env_file: .env
+    volumes:
+      - ./config:/app/config:ro

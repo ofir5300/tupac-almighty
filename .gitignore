@@ -1,0 +1,16 @@
+__pycache__/
+.python-version
+.git/
+*.pyc
+*.pyo
+*.pyd
+*.tar
+*.zip
+.venv/
+*.log
+.DS_Store
+.env
+.vscode
+local-models/
+env/
+config/secrets/
