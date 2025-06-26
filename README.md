@@ -47,8 +47,8 @@ This guide covers **local development**, **Docker usage**, and **Raspberry Pi de
 1. _(Optional but recommended)_ **Set up a virtual environment:**
 
    ```sh
-   pyenv install 3.13.2
-   pyenv virtualenv 3.13.2 "$PROJECT_NAME"
+   pyenv install 3.11.9
+   pyenv virtualenv 3.11.9 "$PROJECT_NAME"
    pyenv local "$PROJECT_NAME"
    ```
 

@@ -4,7 +4,7 @@
 source "$(dirname "$0")/dot_env_loader.sh"
 
 echo "💻 Scripting from Mac"
-source "$VIRTUAL_ENV_PATH"
+source "$VIRTUAL_ENV_PATH" # path to the 'activate' file
 cd "$REPO_ABSOLUTE_PATH"
 # run python script as a module
 python -m application.handlers.host_llm "$@"
