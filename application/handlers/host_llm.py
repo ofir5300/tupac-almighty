@@ -111,7 +111,7 @@ def google(query: str) -> str:
 
     google_model = hugging_face_model_name if on_rpi else local_path
     print(
-        f"{"🏠 NOT " if not on_rpi else "🍓 "}On RPI, thus using MODEL: {google_model}"
+        f"{'🏠 NOT ' if not on_rpi else '🍓 '}On RPI, thus using MODEL: {google_model}"
     )
     tokenizer = AutoTokenizer.from_pretrained(
         google_model, local_files_only="local-models" in google_model

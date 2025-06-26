@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1.4
 
 # First stage: builder
-FROM python:3.13-slim as builder
+FROM python:3.11-slim as builder
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential cmake pkg-config libprotobuf-dev protobuf-compiler libgomp1 \
@@ -14,7 +14,7 @@ RUN pip install --upgrade pip \
     && pip wheel --no-cache-dir --wheel-dir=/wheels -r requirements.txt
 
 # Final stage: minimal runtime
-FROM python:3.13-slim
+FROM python:3.11-slim
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     sshpass openssh-client libgomp1 \
